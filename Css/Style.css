@@ -1,0 +1,117 @@
+
+/* Common For all */
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* .primary{
+}
+.secondary{
+}
+.main{
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+.p-container{
+    height: 100vh;
+}
+body{
+    background-color: #effffd;
+}
+
+
+       /* css for navbar */
+
+#navbar{
+    display: flex;
+    align-items: center;
+    background-color: #42c2ff;
+}
+.logo img{
+    width: 140px;
+    height: 70px;
+    padding: 2px;
+}
+.title{
+    color: white;
+    margin-left: 21px;
+}
+.title h1{
+    font-size: 2em;
+    text-shadow: 4px 4px 10px black;
+}
+.nav ul {
+    display: flex;
+    margin-left: 725px;
+}
+.nav ul li{
+    margin-left: 40px;
+    list-style:none;
+}
+.nav  ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
+.nav a:hover{
+    color: rgb(74, 79, 79);
+    text-shadow: 3px 3px 10px black;
+    font-size: 1.5em;
+}
+
+     /* background css */
+
+
+.background img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+
+  /* main content */
+
+.container{
+    padding: 60px;
+    margin-top: 460px;
+    border: 6px solid #12615b;
+    width: 500px;
+    margin: 24px auto 10px;
+    border-radius: 20px;
+    box-shadow: 15px -15px 14px  #01544d;
+}
+.main-content li{
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.main-content li a{
+    font-size: 3em;
+    text-decoration: none;
+    color: black;
+}
+.main-content li a:hover{
+    padding: 5px 80px;
+    border-radius: 30px;
+    color: #545958;
+}
+
+
+/* Css footer */
+footer{
+    background-color: #051367;
+    /* position: fixed; */
+}
+footer p{
+    color: white;
+    font-size: 1.2em;
+    text-align: center;   
+    padding: 20px 0px 20px;
+
+}
